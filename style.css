@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    background: #212121;
+}
+
+.input-group {
+    position: relative;
+    margin: 20px 0;
+}
+
+.input-group label {
+    position: absolute;
+    top: 45%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 16px;
+    color: #fff;
+    padding: 0 5px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.input-group input {
+    width: 320px;
+    height: 50px;
+    font-size: 19px;
+    color: #fff;
+    padding: 0 10px;
+    background: transparent;
+    border: 1.2px solid #fff;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input-group input:focus~label,
+.input-group input:valid~label {
+    top: 0;
+    font-size: 14px;
+    background: #212121;
+}
+
+#custom-submit {
+    position: relative;
+    width: 320px;
+    height: 50px;
+    font-size: 19px;
+    color: #c6901b;
+    background: transparent;
+    outline: none;
+    border: 2px solid #c6901b;
+    border-radius: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    z-index: 1;
+    transition: color 0.3s ease, background 0.3s ease; /* Aggiunta la transizione per il testo */
+}
+
+#custom-submit:hover {
+    color: white; /* Cambia il colore del testo */
+    background: #c6901b;
+}
+
+#custom-submit::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    z-index: -1;
+    transition: width 0.3s ease, background-color 0.3s ease; /* Transizione fluida per riempimento */
+}
