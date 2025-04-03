@@ -2,7 +2,7 @@
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/tononjacopo/quiz/actions)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
-[![Version](https://img.shields.io/badge/version-1.0.0-orange)](https://github.com/tononjacopo/quiz/releases)
+[![Version](https://img.shields.io/badge/version-1.0.5-orange)](https://github.com/tononjacopo/quiz/releases)
 
 An interactive and engaging quiz application that allows users to test their knowledge on various topics with a clean and user-friendly interface.
 
