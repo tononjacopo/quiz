@@ -5,104 +5,101 @@
 [![Version](https://img.shields.io/badge/version-1.1.7-orange)](https://github.com/tononjacopo/quiz/releases)
 [![PHP Version](https://img.shields.io/badge/php-%3E%3D7.4-8892BF)](https://www.php.net/)
 
-Un sistema completo di gestione quiz per istituti scolastici sviluppato in PHP, che permette a docenti di creare quiz e a studenti di rispondere alle domande, con un'interfaccia amministrativa centrale.
+A complete quiz management system for educational institutions developed in PHP. It allows teachers to create quizzes and students to answer questions, all through a centralized admin interface.
 
-## 🌐 Demo Online
+## 🌐 Online Demo
 
-Prova la demo qui: [PHP Quiz App](https://www.tononjacopo.com/quiz/)
+Try the demo here: [PHP Quiz App](https://www.tononjacopo.com/quiz/)
 
-## 🔥 Funzionalità
+## 🔥 Features
 
-- ✅ **Sistema Multi-Utente** – Tre livelli di accesso: amministratore, docente e studente. 👥
-- ✅ **Pannello Amministrativo** – Per gestire utenti, classi e monitorare l'attività. 🔧
-- ✅ **Interfaccia Docente** – Creazione di quiz con domande a risposta aperta e revisione delle risposte. 👨‍🏫
-- ✅ **Portale Studente** – Visualizzazione e completamento dei quiz assegnati. 👨‍🎓
-- ✅ **Prevenzione Accesso Duplicato** – Gli studenti non possono accedere più volte allo stesso quiz. 🔒
-- ✅ **Design Responsivo** – Funziona su tutti i dispositivi, dal desktop al mobile. 📱💻
+- ✅ **Multi-User System** – Three access levels: administrator, teacher, and student. 👥  
+- ✅ **Admin Panel** – Manage users, classes, and monitor activity. 🔧  
+- ✅ **Teacher Interface** – Create quizzes with open-ended questions and review responses. 👨‍🏫  
+- ✅ **Student Portal** – View and complete assigned quizzes. 👨‍🎓  
+- ✅ **Duplicate Access Prevention** – Students cannot access the same quiz multiple times. 🔒  
+- ✅ **Responsive Design** – Works on all devices, from desktop to mobile. 📱💻
 
 ## 📸 Screenshots
 
-### 🔹 Pannello Amministratore
+### 🔹 Admin Panel
 
 <img src="https://github.com/tononjacopo/quiz/blob/cf1a49d833c8052cbb15bf91abb9f04f26457de3/screenshot/admin.png" width="700">
 
-*Pannello amministrativo con gestione utenti e classi.*
+*Admin panel with user and class management.*
 
-### 🔹 Interfaccia Docente
+### 🔹 Teacher Interface
 
 <img src="https://github.com/tononjacopo/quiz/blob/cf1a49d833c8052cbb15bf91abb9f04f26457de3/screenshot/ins.png" width="700">
 
-*Pannello docente per la creazione e revisione dei quiz.*
+*Teacher panel for quiz creation and review.*
 
-### 🔹 Portale Studente
+### 🔹 Student Portal
 
 <img src="https://github.com/tononjacopo/quiz/blob/cf1a49d833c8052cbb15bf91abb9f04f26457de3/screenshot/stud.png" width="700">
 
-*Interfaccia studente per la visualizzazione e compilazione dei quiz.*
+*Student interface for viewing and completing quizzes.*
 
-## 🗁 Struttura del Progetto
+## 🗁 Project Structure
 
 ```plaintext
 📂 quiz-system
-├── 📁 auth/               # Gestione autenticazione
-│   ├── login.php          # Processo di login
-│   └── logout.php         # Processo di logout
-├── 📁 config/             # File di configurazione
-│   ├── local.php          # config locale
-│   └── database.php       # Configurazione connessione al database
-├── 📁 modules/            # Moduli applicazione
-│   ├── admin/             # Funzionalità amministratore
-│   │   └── admin.php      # Dashboard amministratore
-│   ├── teacher/           # Funzionalità docente
-│   │   ├── teacher.php    # Dashboard docente
-│   │   ├── edit_quiz.php  # Modifica quiz
-│   │   └── quiz_deails.php# Dettagli quiz(risposte studenti)
-│   └── student/           # Funzionalità studente
-│       └── student.php    # Dashboard studente
-├── 📁 assets/             # Risorse statiche
-│   ├── css/               # Fogli di stile
-│   │   ├── admin_style.css# Stile css
-│   │   ├── style_teacher.css# Stile insegnante
-│   │   └── style.css      # Stile generale
-│   └── img/               # Immagini e icone
-├── 📝 index.php           # Punto di ingresso dell'applicazione
-└── 📄 LICENSE             # File della licenza MIT
+├── 📁 auth/               # Authentication management
+│   ├── login.php          # Login process
+│   └── logout.php         # Logout process
+├── 📁 config/             # Configuration files
+│   ├── local.php          # Local config
+│   └── database.php       # Database connection settings
+├── 📁 modules/            # Application modules
+│   ├── admin/             # Admin features
+│   │   └── admin.php      # Admin dashboard
+│   ├── teacher/           # Teacher features
+│   │   ├── teacher.php    # Teacher dashboard
+│   │   ├── edit_quiz.php  # Edit quiz
+│   │   └── quiz_deails.php# Quiz details (student answers)
+│   └── student/           # Student features
+│       └── student.php    # Student dashboard
+├── 📁 assets/             # Static assets
+│   ├── css/               # Stylesheets
+│   │   ├── admin_style.css# Admin style
+│   │   ├── style_teacher.css# Teacher style
+│   │   └── style.css      # General style
+│   └── img/               # Images and icons
+├── 📝 index.php           # Application entry point
+└── 📄 LICENSE             # MIT license file
 ```
 
-## 🛠️ Tecnologie Utilizzate
+## 🛠️ Technologies Used
 
-- **PHP** – Linguaggio di programmazione back-end per la logica dell'applicazione.
-- **MySQL/MariaDB** – Database relazionale per la memorizzazione dei dati.
-- **HTML5 & CSS3** – Struttura semantica e stile dell'interfaccia utente.
-- **JavaScript** – Interattività lato client e validazione form.
-- **Simple CSS** – Framework CSS leggero per il design responsivo.
+- **PHP** – Back-end programming language for application logic  
+- **MySQL/MariaDB** – Relational database for data storage  
+- **HTML5 & CSS3** – Semantic structure and UI styling  
+- **JavaScript** – Client-side interactivity and form validation  
+- **Simple CSS** – Lightweight CSS framework for responsive design
 
-## 📊 Schema Database
+## 📊 Database Schema
 
-Il sistema si basa su diverse tabelle chiave:
-- `utente` - Gestione utenti con differenti livelli di accesso (amministratore, docente, studente)
-- `classi` - Gestione delle classi scolastiche
-- `quiz` - Archivio dei quiz creati dai docenti
-- `domande` - Domande associate ai quiz
-- `risposte` - Risposte degli studenti alle domande
+The system is built on several key tables:
+- `utente` - User management with different access levels (admin, teacher, student)  
+- `classi` - School class management  
+- `quiz` - Quiz archive created by teachers  
+- `domande` - Questions associated with quizzes  
+- `risposte` - Student answers to questions
 
+## 🔒 Security Features
 
-```markdown
-## 🔒 Caratteristiche di sicurezza
-
-- Password hashate nel database
-- Protezione contro SQL Injection tramite prepared statements
-- Validazione input e sanitizzazione
-- Controllo sessioni per prevenire accessi non autorizzati
-- Reindirizzamento automatico per quiz già completati dagli studenti
-```
+- Passwords hashed in the database  
+- Protection against SQL Injection via prepared statements  
+- Input validation and sanitization  
+- Session control to prevent unauthorized access  
+- Automatic redirection for already completed quizzes
 
 ## 📩 Contact
 
-- [🌐 Portfolio](https://tononjacopo.com)
-- [🔗 LinkedIn](https://it.linkedin.com/in/tononjacopo)
-- [💡 LeetCode](https://leetcode.com/tononjacopo)
-- [❌ X](https://x.com/devtononjacopo)
+- [🌐 Portfolio](https://tononjacopo.com)  
+- [🔗 LinkedIn](https://it.linkedin.com/in/tononjacopo)  
+- [💡 LeetCode](https://leetcode.com/tononjacopo)  
+- [❌ X](https://x.com/devtononjacopo)  
 - [🎨 Dribbble](https://dribbble.com/tononjacopo)
 
 📩 **Email**: [info@tononjacopo.com](mailto:info@tononjacopo.com)
