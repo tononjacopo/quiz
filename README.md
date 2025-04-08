@@ -68,32 +68,33 @@ Check out the live demo here: [Quiz Application](https://www.tononjacopo.com/qui
 └── 📄 LICENSE             # File della licenza MIT
 ```
 
-## 🛠️ Technologies Used
+## 🛠️ Tecnologie Utilizzate
 
-- 🏗️ **HTML5** – Provides the semantic structure of the webpage, ensuring accessibility and SEO optimization.
-- 🎨 **CSS3** – Used for styling the page, including layout design, animations, and responsiveness.
-- ⚡ **JavaScript (ES6+)** – Handles quiz logic, user interactions, and dynamic score calculations.
+- **PHP** – Linguaggio di programmazione back-end per la logica dell'applicazione.
+- **MySQL/MariaDB** – Database relazionale per la memorizzazione dei dati.
+- **HTML5 & CSS3** – Struttura semantica e stile dell'interfaccia utente.
+- **JavaScript** – Interattività lato client e validazione form.
+- **Simple CSS** – Framework CSS leggero per il design responsivo.
 
-## 🚀 Installation
+## 📊 Schema Database
 
-To run this project locally, follow these steps:
+Il sistema si basa su diverse tabelle chiave:
+- `utente` - Gestione utenti con differenti livelli di accesso (amministratore, docente, studente)
+- `classi` - Gestione delle classi scolastiche
+- `quiz` - Archivio dei quiz creati dai docenti
+- `domande` - Domande associate ai quiz
+- `risposte` - Risposte degli studenti alle domande
 
-1. **Clone the repository**
 
-   ```bash
-   git clone https://github.com/tononjacopo/quiz.git
-   ```
+```markdown
+## 🔒 Caratteristiche di sicurezza
 
-2. **Navigate to the project directory**
-
-   ```bash
-   cd quiz
-   ```
-
-3. **Open the `index.html` file in your browser**
-
-   - Option 1: Drag and drop the `index.html` file into your browser window.
-   - Option 2: Use a live server extension in your code editor (e.g., VSCode) to view the page locally.
+- Password hashate nel database
+- Protezione contro SQL Injection tramite prepared statements
+- Validazione input e sanitizzazione
+- Controllo sessioni per prevenire accessi non autorizzati
+- Reindirizzamento automatico per quiz già completati dagli studenti
+```
 
 ## 📩 Contact
 
