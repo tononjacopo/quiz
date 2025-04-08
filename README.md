@@ -9,7 +9,7 @@ Un sistema completo di gestione quiz per istituti scolastici sviluppato in PHP, 
 
 ## 🌐 Demo Online
 
-Prova la demo qui: [PHP Quiz System](https://www.tononjacopo.com/quiz/)
+Prova la demo qui: [PHP Quiz App](https://www.tononjacopo.com/quiz/)
 
 ## 🔥 Funzionalità
 
