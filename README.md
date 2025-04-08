@@ -1,4 +1,4 @@
-# 🧠 PHP Quiz Management System
+# 🧠 PHP Quiz Web Application
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/tononjacopo/quiz/actions)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
