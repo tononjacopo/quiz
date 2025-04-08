@@ -19,17 +19,25 @@ Check out the live demo here: [Quiz Application](https://www.tononjacopo.com/qui
 
 ## 📸 Screenshots
 
-### 🔹 Quiz Interface
+### 🔹 Admin
 
-![Quiz Interface](media/quiz_interface.png)
+<img src="https://github.com/tononjacopo/quiz/blob/cf1a49d833c8052cbb15bf91abb9f04f26457de3/screenshot/admin.png" width="700">
+
+*Admin panel.*
+
+
+### 🔹 Teachers Page
+
+<img src="https://github.com/tononjacopo/quiz/blob/cf1a49d833c8052cbb15bf91abb9f04f26457de3/screenshot/ins.png" width="700">
+
+*Teachers panel.*
+
+
+### 🔹 Students Page
+
+<img src="https://github.com/tononjacopo/quiz/blob/cf1a49d833c8052cbb15bf91abb9f04f26457de3/screenshot/stud.png" width="700">
 
 *A clean and engaging quiz interface that guides users through the questions.*
-
-### 🔹 Scoreboard
-
-![Scoreboard](media/scoreboard.png)
-
-*A summary screen showing the final score and performance feedback.*
 
 ## 🗁 Project Structure
 
