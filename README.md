@@ -1,45 +1,46 @@
-# 🧠 Quiz Application
+# 🧠 PHP Quiz Management System
 
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](https://github.com/tononjacopo/quiz/actions)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Version](https://img.shields.io/badge/version-1.1.7-orange)](https://github.com/tononjacopo/quiz/releases)
+[![PHP Version](https://img.shields.io/badge/php-%3E%3D7.4-8892BF)](https://www.php.net/)
 
-An interactive and engaging quiz application that allows users to test their knowledge on various topics with a clean and user-friendly interface.
+Un sistema completo di gestione quiz per istituti scolastici sviluppato in PHP, che permette a docenti di creare quiz e a studenti di rispondere alle domande, con un'interfaccia amministrativa centrale.
 
-## 🌐 Live Demo
+## 🌐 Demo Online
 
-Check out the live demo here: [Quiz Application](https://www.tononjacopo.com/quiz/)
+Prova la demo qui: [PHP Quiz System](https://www.tononjacopo.com/quiz/)
 
-## 🔥 Features
+## 🔥 Funzionalità
 
-- ✅ **User-Friendly Interface** – Intuitive design making it easy to navigate and answer quiz questions. 🏆
-- ✅ **Multiple Question Categories** – Wide range of topics to challenge users with diverse questions. 📚
-- ✅ **Score Tracking** – Keeps track of user scores and provides feedback on performance. 🎯
-- ✅ **Responsive Design** – Works seamlessly across all devices, from desktops to smartphones. 📱💻
+- ✅ **Sistema Multi-Utente** – Tre livelli di accesso: amministratore, docente e studente. 👥
+- ✅ **Pannello Amministrativo** – Per gestire utenti, classi e monitorare l'attività. 🔧
+- ✅ **Interfaccia Docente** – Creazione di quiz con domande a risposta aperta e revisione delle risposte. 👨‍🏫
+- ✅ **Portale Studente** – Visualizzazione e completamento dei quiz assegnati. 👨‍🎓
+- ✅ **Prevenzione Accesso Duplicato** – Gli studenti non possono accedere più volte allo stesso quiz. 🔒
+- ✅ **Design Responsivo** – Funziona su tutti i dispositivi, dal desktop al mobile. 📱💻
 
 ## 📸 Screenshots
 
-### 🔹 Admin
+### 🔹 Pannello Amministratore
 
 <img src="https://github.com/tononjacopo/quiz/blob/cf1a49d833c8052cbb15bf91abb9f04f26457de3/screenshot/admin.png" width="700">
 
-*Admin panel.*
+*Pannello amministrativo con gestione utenti e classi.*
 
-
-### 🔹 Teachers Page
+### 🔹 Interfaccia Docente
 
 <img src="https://github.com/tononjacopo/quiz/blob/cf1a49d833c8052cbb15bf91abb9f04f26457de3/screenshot/ins.png" width="700">
 
-*Teachers panel.*
+*Pannello docente per la creazione e revisione dei quiz.*
 
-
-### 🔹 Students Page
+### 🔹 Portale Studente
 
 <img src="https://github.com/tononjacopo/quiz/blob/cf1a49d833c8052cbb15bf91abb9f04f26457de3/screenshot/stud.png" width="700">
 
-*A clean and engaging quiz interface that guides users through the questions.*
+*Interfaccia studente per la visualizzazione e compilazione dei quiz.*
 
-## 🗁 Project Structure
+## 🗁 Struttura del Progetto
 
 ```plaintext
 📂 quiz-system
