@@ -42,16 +42,30 @@ Check out the live demo here: [Quiz Application](https://www.tononjacopo.com/qui
 ## 🗁 Project Structure
 
 ```plaintext
-📂 quiz-application
-├── 📝 index.html      # Main HTML file containing the page structure
-├── 🎨 style/          # Directory containing CSS styles
-│   └── style.css      # Main stylesheet for the quiz application
-├── 🛠️ script/         # Directory containing JavaScript files
-│   └── main.js        # Script handling quiz logic and interactions
-├── 🖼️ media/          # Directory for images and multimedia resources
-│   ├── quiz_interface.png   # Screenshot of the quiz interface
-│   ├── scoreboard.png       # Screenshot of the scoreboard
-└── 📄 LICENSE         # MIT License file
+📂 quiz-system
+├── 📁 auth/               # Gestione autenticazione
+│   ├── login.php          # Processo di login
+│   └── logout.php         # Processo di logout
+├── 📁 config/             # File di configurazione
+│   ├── local.php          # config locale
+│   └── database.php       # Configurazione connessione al database
+├── 📁 modules/            # Moduli applicazione
+│   ├── admin/             # Funzionalità amministratore
+│   │   └── admin.php      # Dashboard amministratore
+│   ├── teacher/           # Funzionalità docente
+│   │   ├── teacher.php    # Dashboard docente
+│   │   ├── edit_quiz.php  # Modifica quiz
+│   │   └── quiz_deails.php# Dettagli quiz(risposte studenti)
+│   └── student/           # Funzionalità studente
+│       └── student.php    # Dashboard studente
+├── 📁 assets/             # Risorse statiche
+│   ├── css/               # Fogli di stile
+│   │   ├── admin_style.css# Stile css
+│   │   ├── style_teacher.css# Stile insegnante
+│   │   └── style.css      # Stile generale
+│   └── img/               # Immagini e icone
+├── 📝 index.php           # Punto di ingresso dell'applicazione
+└── 📄 LICENSE             # File della licenza MIT
 ```
 
 ## 🛠️ Technologies Used
